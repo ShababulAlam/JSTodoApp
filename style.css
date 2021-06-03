@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+
+    background-color: teal;
+} 
+.wrapper{
+    margin: 15px;
+    width: 265px;
+    background: antiquewhite;
+    border-radius: 5px;
+    padding: 25px
+
+
+}
+
+.wrapper .inputField{
+    display: flex;
+    height: 45px;
+    border: 2px solid #329aa8;
+    width:100%;
+    font-size: 17px;
+    border-radius: 3px;
+    
+
+
+}
+
+.inputField button{
+    width : 50px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #6032a8;
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+
+.footer button{
+    color :whitesmoke;
+    background: tomato;
+    width: 40%;
+    
+}
+
+.todoList{
+    padding: 5%;
+    box-sizing: border-box;
+    border: cornflowerblue;
+    
+    
+}
+
